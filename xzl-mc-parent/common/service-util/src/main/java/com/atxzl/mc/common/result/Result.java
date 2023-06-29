@@ -24,7 +24,7 @@ public class Result<T> {
             result.setData(data);
         }
         result.setCode(resultCodeEnum.getCode());
-        result.setMessage(result.getMessage());
+        result.setMessage(resultCodeEnum.getMessage());
         return result;
     }
 
