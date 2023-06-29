@@ -1,12 +1,12 @@
 package com.atguigu.ssyx.enums;
 
 import com.alibaba.fastjson.annotation.JSONType;
-import com.alibaba.fastjson.parser.deserializer.EnumDeserializer;
-import com.alibaba.fastjson.serializer.EnumSerializer;
+//import com.alibaba.fastjson.parser.deserializer.EnumDeserializer;
+//import com.alibaba.fastjson.serializer.EnumSerializer;
 import com.baomidou.mybatisplus.annotation.EnumValue;
 import lombok.Getter;
 
-@JSONType(serializer = EnumSerializer.class, deserializer = EnumDeserializer.class, serializeEnumAsJavaBean = true)
+//@JSONType(serializer = EnumSerializer.class, deserializer = EnumDeserializer.class, serializeEnumAsJavaBean = true)
 @Getter
 public enum BillType {
     ORDER(0,"订单佣金"),
